@@ -117,7 +117,7 @@ orgs.newOrg('tools.cdt', 'eclipse-cdt') {
       },
       branch_protection_rules: [
         custom_branch_protection_rule('*'),
-      ],
+      ],eclipse_mem_start=1024m
     },
-  ],
+  ],eclipse_mem_max="3072m
 }
